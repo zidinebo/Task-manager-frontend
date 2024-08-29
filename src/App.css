@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.nav-con {
+  padding: 26px 170px;
+  border: 0.5px solid #b8b6b6;
+}
+
+.inner-nav {
+  width: 310px;
+}
+
+.inner-nav a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #292929;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.homepage-con {
+  padding: 65px 170px;
+}
+
+.home-content {
+  gap: 129px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  /* width: 535px; */
+}
+
+.home-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #292929;
+  line-height: 61.6px;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.home-text h1 span {
+  color: #974fd0;
+}
+
+.home-text p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.57px;
+  color: #737171;
+}
+
+.home-text a {
+  text-decoration: none;
+  color: #faf9fb;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.home-a {
+  background-color: #974fd0;
+  width: 201px;
+  height: 50px;
+  top: 493px;
+  left: 172px;
+  padding: 10px 25px 10px 25px;
+  gap: 10px;
+  border-radius: 8px;
+  /* opacity: 0px; */
+}
+
+/* ============================ */
+
+.alltasks-con {
+  padding: 0 170px;
+}
+
+.my-tasks {
+  margin-top: 53px;
+}
+
+.my-tasks h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #292929;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.my-tasks a {
+  width: 177px;
+  text-decoration: none;
+}
+
+.my-tasks p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #974fd0;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.tasks-content {
+  margin-top: 53px;
+  border: 0.5px solid #b8b6b6;
+  border-radius: 10px;
+}
+
+.tasks-content hr {
+  margin: 0 12px;
+}
+
+.inner-tak {
+  margin: 20px 12px;
+}
+
+.inner-tak p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f38383;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.tasks-but a {
+  background-color: #974fd0;
+  gap: 10px;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.tasks-but a p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #faf9fb;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.tasks-but button {
+  border: 1px solid #974fd0;
+  padding: 10px 25px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.tasks-but button p {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #974fd0;
+}
+
+.task-detail {
+  margin: 13px 12px;
+}
+
+.task-detail h3 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #292929;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.task-detail p {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.57px;
+  color: #737171;
+}
+
+.bk-top a {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #974fd0;
+}
+/* =============NEW================== */
+.newt-con {
+  padding: 65px 170px;
+}
+
+.back-to1 h2 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.newt-con form {
+  margin: 84px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+
+.title-new label,
+.describe-new label,
+.tag-new h3 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #9c9c9c;
+  top: -23px;
+  background-color: #ffffff;
+  left: 50px;
+}
+
+.title-new input,
+.describe-new textarea {
+  border: 1px solid #b8b6b6;
+}
+
+.title-new input::placeholder,
+.describe-new textarea::placeholder {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Signika Negative", sans-serif;
+  color: #cccccc;
+}
+
+.tag-new {
+  border: 1px solid #b8b6b6;
+}
+
+.tag-new div p {
+  background-color: #9c9c9c;
+  color: #cccccc;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.newt-form button {
+  padding: 10px 25px;
+  border-radius: 8px;
+  background-color: #974fd0;
+  border: none;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Signika Negative", sans-serif;
+  color: #faf9fb;
+}
+
+/* ==============EDIT====================== */
+.editt-con {
+  padding: 65px 170px;
+}
+
+.back-to2 h2 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.editt-con form {
+  margin: 84px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+
+.title-edit label,
+.describe-edit label,
+.tag-edit h3 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #9c9c9c;
+  top: -23px;
+  background-color: #ffffff;
+  left: 50px;
+}
+
+.title-edit input,
+.describe-edit textarea {
+  border: 1px solid #b8b6b6;
+}
+
+.title-edit input::placeholder,
+.describe-edit textarea::placeholder {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Signika Negative", sans-serif;
+  color: #cccccc;
+}
+
+.tag-edit {
+  border: 1px solid #b8b6b6;
+}
+
+.tag-edit div p {
+  background-color: #292929;
+  color: #cccccc;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.editt-form button {
+  padding: 10px 25px;
+  border-radius: 8px;
+  background-color: #974fd0;
+  border: none;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Signika Negative", sans-serif;
+  color: #faf9fb;
+}
+
+.home-img {
+  width: 420px;
+  height: 400px;
+}
+
+/* ==================================== */
+/* .illu {
+  opacity: 1;
+}
+
+.illu.change {
+  opacity: 0;
+} */
